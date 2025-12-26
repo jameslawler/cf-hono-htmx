@@ -5,7 +5,7 @@ const Layout: FC = (props) => {
     <html>
       <body>
         <>{props.children}</>
-        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js" integrity="sha384-/TgkGk7p307TH7EXJDuUlgG3Ce1UVolAOFopFekQkkXihi5u/6OCvVKyz1W+idaz" crossorigin="anonymous"></script>
+        <script src="/htmx.min.js"></script>
       </body>
     </html>
   )

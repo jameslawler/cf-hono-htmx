@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "wrangler dev",
 		"deploy": "wrangler deploy --minify",
+		"htmx": "cp node_modules/htmx.org/dist/htmx.min.js public/htmx.min.js",
 		"cf-typegen": "wrangler types --env-interface CloudflareBindings"
 	},
 	"dependencies": {

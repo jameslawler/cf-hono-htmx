@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
-import api from './api'
-import web from './web'
+import api from './routes/api'
+import web from './routes/web'
 
 const app = new Hono()
 

@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import HomePage from '../client/pages/home-page'
+import HomePage from '../../client/pages/home-page'
 
 const web = new Hono()
 
